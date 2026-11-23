@@ -92,3 +92,11 @@ body.tb{font-family:'Roboto',Arial,sans-serif;color:var(--tb-ink);background:#ff
   .tb-hero .tb-scrim{background:linear-gradient(180deg,rgba(12,18,26,.90) 0%,rgba(12,18,26,.88) 60%,rgba(12,18,26,.90) 100%)}
   .tb section{padding:58px 0}
 }
+
+.tb-form{display:block}
+.tb-form label{display:block;font-family:'Oswald',Arial,sans-serif;font-size:14px;letter-spacing:.8px;text-transform:uppercase;color:var(--tb-acc-ink);margin:16px 0 6px}
+.tb-form input[type=text],.tb-form input[type=email],.tb-form textarea{width:100%;border:1px solid var(--tb-line);background:#fff;color:var(--tb-ink);padding:11px 13px;font-size:16px;border-radius:2px}
+.tb-form input:focus,.tb-form textarea:focus{outline:2px solid var(--tb-acc-ink);outline-offset:1px}
+.tb-form textarea{resize:vertical}
+.tb-form button{margin-top:20px;background:var(--tb-deep);color:#fff;border:0;padding:13px 26px;font-family:'Oswald',Arial,sans-serif;font-size:15px;letter-spacing:1px;text-transform:uppercase;border-radius:2px;cursor:pointer}
+.tb-form button:hover{background:var(--tb-acc-ink)}
